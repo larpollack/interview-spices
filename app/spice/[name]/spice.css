@@ -1,0 +1,27 @@
+.wrapper {
+	@apply flex justify-center my-16;
+}
+
+.card {
+	@apply p-16 bg-[#453a3d] rounded-md shadow-lg;
+}
+
+.spiceInfo {
+	@apply flex flex-row content-between;
+}
+
+.spiceSeparator {
+	@apply flex flex-col border-r border-stone-500 pr-4;
+}
+
+.spiceDetail {
+	@apply text-lg mb-4;
+}
+
+.spiceImage {
+	@apply pl-4;
+}
+
+.backButton {
+	@apply pl-12 pt-8;
+}
